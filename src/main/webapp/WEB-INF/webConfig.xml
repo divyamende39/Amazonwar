@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-config>
+    <package-scan>amazon</package-scan>
+
+    <session-timeout>30</session-timeout>
+
+    <welcome-url>/home</welcome-url>
+
+    <url-patterns>
+        <url-pattern>/home</url-pattern>
+        <url-pattern>/home/clock</url-pattern>
+    </url-patterns>
+
+    <message-files>
+        <message-file>texts</message-file>
+    </message-files>
+
+    <default-locale>en</default-locale>
+</web-config>
+
